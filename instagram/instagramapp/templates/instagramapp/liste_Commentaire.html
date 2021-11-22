@@ -1,0 +1,10 @@
+{% extends 'instagramapp/base.html' %}
+
+{% block content %}
+<h1> liste commentaire Instatech ! </h1>
+<p>
+    Commentaire : {{commentaire.commentaire}} <br>
+    date : {{commentaire.date}} <br>
+    commentateur : {{commentaire.commentateur.nom}}
+</p>
+{% endblock %}
